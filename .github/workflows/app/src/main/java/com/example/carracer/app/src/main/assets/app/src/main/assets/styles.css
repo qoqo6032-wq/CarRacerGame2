@@ -1,0 +1,12 @@
+html,body{height:100%;margin:0;font-family:Arial,Helvetica,sans-serif;background:#101317;color:#fff}
+#glCanvas{position:fixed;inset:0;width:100%;height:100%;display:block;z-index:0;background:#101317}
+#uiRoot{position:fixed;inset:0;z-index:3;display:flex;align-items:center;justify-content:center;pointer-events:none}
+.screen{pointer-events:auto;background:linear-gradient(180deg,rgba(0,0,0,0.6),rgba(0,0,0,0.4));padding:20px;border-radius:12px;text-align:center}
+.hidden{display:none}
+#hud{position:fixed;top:12px;left:12px;right:12px;display:flex;justify-content:space-between;pointer-events:none}
+#hud > .left, #hud > .right{pointer-events:auto;background:rgba(0,0,0,0.35);padding:8px;border-radius:8px}
+button{padding:10px 16px;border-radius:10px;border:0;background:#1e90ff;color:#fff;font-weight:600;margin:8px;cursor:pointer}
+.meta{font-size:12px;color:#ccc;margin-top:8px}
+#carsList{display:flex;flex-wrap:wrap;gap:8px;max-width:520px;margin:8px auto}
+.carCard{background:rgba(255,255,255,0.06);padding:8px;border-radius:8px;min-width:150px}
+.carCard button{margin-top:6px}
